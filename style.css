@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.row div {
+  padding: 20px;
+  background: lime;
+  color: #fff;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  gap: 20px;
+  text-align: center;
+}
+.col-3 { 
+flex: 1 1 calc(25% - 20px);
+}
+.col-4 { 
+flex: 1 1 calc(33.3% - 20px);
+}
+.col-6 { 
+flex: 1 1 calc(50% - 20px);
+}
+.col-1 { 
+flex: 1 1 calc(100% - 20px);
+}
+.col-2 { 
+flex: 1 1 calc(20% - 20px);
+}
